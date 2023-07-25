@@ -15,8 +15,8 @@ def cat(request):
 def rabbit(request):
     return render(request,"pets/rabbit_selection.html")
 
-def lion(request):
-    return render(request,"pets/lion_selection.html")
+def bird(request):
+    return render(request,"pets/bird_selection.html")
 
-def tiger(request):
-    return render(request,"pets/tiger_selection.html")
+def fish(request):
+    return render(request,"pets/fish_selection.html")

@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-      <style>
-          body {
-  margin: 0;
-  line-height: normal;
-}
+{% extends 'pets/basic.html' %}
 
+{% block title %}
+Adopt a Pet
+{% endblock %}
+
+{% block css %}
 :root {
   /* fonts */
   --font-irish-grover: "Irish Grover";
@@ -193,22 +189,9 @@ p::selection {
   color: var(--color-black);
   font-family: var(--font-itim);
 }
+{% endblock %}
 
-      </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Irish Grover:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Gorditas:wght@700&display=swap"
-    />
-  </head>
-  <body>
+{% block body %}
     <div class="desktop-2">
       <img
         class="screenshot-2023-07-19-095445-p9"
@@ -226,13 +209,12 @@ p::selection {
         <button class="rabbit-wrapper" onclick="window.location.href='/pet/rabbit';" autofocus>
           <div class="rabbit">Rabbit</div>
         </button>
-        <button class="lion-wrapper" onclick="window.location.href='/pet/lion';">
-          <div class="dog">Lion</div>
+        <button class="lion-wrapper" onclick="window.location.href='/pet/bird';">
+          <div class="dog">Bird</div>
         </button>
-        <button class="tiger-wrapper" onclick="window.location.href='/pet/tiger';">
-          <div class="dog">Tiger</div>
+        <button class="tiger-wrapper" onclick="window.location.href='/pet/fish';">
+          <div class="dog">Fish</div>
         </button>
       </div>
     </div>
-  </body>
-</html>
+{% endblock %}

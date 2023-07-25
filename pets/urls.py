@@ -6,6 +6,6 @@ urlpatterns = [
     path('dog',views.dog,name='dog-list-page'),
     path('cat',views.cat,name='cat-list-page'),
     path('rabbit',views.rabbit,name='rabbit-list-page'),
-    path('lion',views.lion,name='lion-list-page'),
-    path('tiger',views.tiger,name='tiger-list-page'),
+    path('bird',views.bird,name='lion-list-page'),
+    path('fish',views.fish,name='tiger-list-page'),
 ]
