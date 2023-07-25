@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+      <style>
+          body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-irish-grover: "Irish Grover";
+  --font-gorditas: Gorditas;
+  --font-itim: Itim;
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-25xl: 44px;
+  --font-size-24xl: 43px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #06131c;
+  --color-gray-200: #130101;
+  --color-black: #000;
+  --color-darkslategray: #3d3823;
+  --color-lemonchiffon: #fff5c1;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-11xl: 30px;
+  --br-81xl: 100px;
+  --br-31xl: 50px;
+}
+.screenshot-2023-07-19-095445-p9 {
+  position: absolute;
+  top: calc(50% - 353px);
+  left: 0;
+  width: 1410px;
+  height: 862px;
+  object-fit: cover;
+}
+.screenshot-2023-07-19-101752-13 {
+  position: absolute;
+  top: 64px;
+  left: 139px;
+  border-radius: var(--br-81xl);
+  width: 185px;
+  height: 185px;
+  object-fit: cover;
+}
+
+.which-pet-are {
+  position: relative;
+  font-size: 38px;
+  color: var(--color-white);
+}
+
+p::selection {
+  background-color: blue;
+  color: white;
+}
+
+.dog {
+  position: absolute;
+  width: 51.69%;
+  top: 0;
+  left: 23.73%;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.dog-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #c3fdc5;
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 118px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cat {
+  position: absolute;
+  top: calc(50% - 21.5px);
+  left: calc(50% - 31px);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: left;
+}
+.cat-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #ffabab;
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 118px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rabbit {
+  position: absolute;
+  top: calc(50% - 21.5px);
+  left: calc(50% - 51px);
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: left;
+}
+.rabbit-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 118px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lion {
+  position: absolute;
+  width: 56.78%;
+  top: 0;
+  left: 23.73%;
+  display: inline-block;
+}
+
+.lion-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #e8df8b;
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 118px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tiger {
+  position: absolute;
+  top: calc(50% - 21.5px);
+  left: calc(50% - 40px);
+}
+
+.tiger-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #fe8d7e;
+  position: relative;
+  border-radius: var(--br-31xl);
+  width: 118px;
+  height: 43px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.content {
+  position: absolute;
+  width: 35.35%;
+  top: 418px;
+  right: 1.83%;
+  left: 62.83%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: var(--font-size-17xl);
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1018px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+
+      </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Irish Grover:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gorditas:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <img
+        class="screenshot-2023-07-19-095445-p9"
+        alt=""
+        src="https://st2.depositphotos.com/4660011/8851/i/450/depositphotos_88514248-stock-photo-young-caucasian-woman-playing-ukulele.jpg"
+      />
+      <div class="content">
+        <p >Which Pet Are You looking For</p>
+        <button class="dog-wrapper" onclick="window.location.href='/pet/dog';" autofocus>
+          <div class="dog">Dog</div>
+        </button>
+        <button class="cat-wrapper" onclick="window.location.href='/pet/cat';" autofocus>
+          <div class="cat">Cat</div>
+        </button>
+        <button class="rabbit-wrapper" onclick="window.location.href='/pet/rabbit';" autofocus>
+          <div class="rabbit">Rabbit</div>
+        </button>
+        <button class="lion-wrapper" onclick="window.location.href='/pet/lion';">
+          <div class="dog">Lion</div>
+        </button>
+        <button class="tiger-wrapper" onclick="window.location.href='/pet/tiger';">
+          <div class="dog">Tiger</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
