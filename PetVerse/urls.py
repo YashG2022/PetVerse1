@@ -24,6 +24,7 @@ urlpatterns = [
 path('about/',views.about,name="about"),
 path('help/',views.help,name="help"),
 
+
     path('pet/',include('pets.urls')),
     path('food/',include('food.urls')),
 ]

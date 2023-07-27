@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.shortcuts import HttpResponse
+
 
 def home(request):
     # return(HttpResponse('<h1>Welcome to PetVerse</h1>'))
@@ -13,3 +13,7 @@ def help(request):
     # return(HttpResponse('<h1>Welcome to PetVerse</h1>'))
     return render(request,'help.html')
 # Create your views here.
+
+
+# myapp/views.py
+
