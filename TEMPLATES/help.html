@@ -1,10 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'pets/basic.html' %}
 
-</body>
-</html>
+{% block title %}
+Adopt a Pet
+{% endblock %}
+
+{% block css %}
+      .desktop-10-child,
+.search-button {
+  position: absolute;
+  top: 99px;
+  left: 1267px;
+  width: 73px;
+  height: 49px;
+  overflow: hidden;
+}
+.desktop-10-child {
+  text-decoration: none;
+  top: 408px;
+  left: 775px;
+  width: 279px;
+  height: 56px;
+}
+.f-424352469-wjylrdisv68nj5yh3m-icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 1340px;
+  height: 882px;
+  object-fit: cover;
+}
+.submit-your-query {
+  position: absolute;
+  top: 0px;
+  left: 11px;
+  text-decoration: underline;
+}
+.submit-your-query-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 300px;
+  left: 775px;
+  width: 279px;
+  height: 56px;
+  overflow: hidden;
+  color: #0842a0;
+}
+.frame-inner,
+.line-icon {
+  position: absolute;
+  top: 129px;
+  left: 16px;
+  width: 1.35px;
+  height: 91px;
+}
+.line-icon {
+  top: 16px;
+  width: 1.01px;
+  height: 80px;
+}
+.line-parent,
+.or {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+}
+.line-parent {
+  top: 300px;
+  left: 683px;
+  width: 31px;
+  height: 220px;
+  overflow: hidden;
+}
+.yash-gautam {
+  margin: 0;
+}
+.yash-gautam-91-container {
+  position: absolute;
+  top: 225px;
+  left: 334px;
+  font-size: 40px;
+  display: inline-block;
+  width: 324px;
+  height: 196px;
+}
+.contactus-icon {
+  position: absolute;
+  top: 50px;
+  left: 344px;
+  width: 355px;
+  height: 121px;
+  object-fit: cover;
+}
+.desktop-10 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 986px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
+}
+
+
+    {% endblock %}
+
+
+
+{% block body %}
+    <div class="desktop-10">
+      <div class="search-button"></div>
+      <a class="desktop-10-child" href="http://xhamster.com" target="_blank">
+      </a>
+      <img
+        class="f-424352469-wjylrdisv68nj5yh3m-icon"
+        alt=""
+        src="https://static.india.com/wp-content/uploads/2023/02/pets-noida-.jpg"
+      />
+
+      <a
+        class="submit-your-query-wrapper"
+        href="/pet/query"
+        target="_blank"
+      >
+        <div class="submit-your-query">Submit your Query</div>
+      </a>
+      <div class="line-parent">
+        <img class="frame-inner" alt="" src="./public/line-4.svg" />
+
+        <img class="line-icon" alt="" src="./public/line-3.svg" />
+
+        <div class="or">or</div>
+      </div>
+      <div class="yash-gautam-91-container">
+        <p class="yash-gautam">Yash Gautam</p>
+        <p class="yash-gautam">+91 99717 76764</p>
+        <p class="yash-gautam">Aastha Sharma</p>
+        <p class="yash-gautam">+91 1234567890</p>
+      </div>
+      <img class="contactus-icon" alt="" src="https://drive.google.com/uc?export=view&id=1TZZNxxmrcGdhkxhvtXjNP5I5wxHjlJI6" />
+    </div>
+ {% endblock %}
